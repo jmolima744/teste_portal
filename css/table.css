@@ -1,0 +1,30 @@
+.tabela-container{
+    max-width: 1000px;
+    margin: auto;
+    overflow-x: auto;  /* para efetuar a questão do scroll */
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+td{
+    border: solid 1px #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table img{
+   width: 120px;
+   height: auto;
+}
+
+table input{
+  transform: scale(1.5);
+  /* alteração da questão do check box */
+  margin-top: 10px;
+  cursor: pointer;
+}

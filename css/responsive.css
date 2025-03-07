@@ -1,0 +1,30 @@
+
+@media(max-width: 768px){
+    .imagem_destaque{
+        max-width: 100%;
+    }
+
+    header h1{
+        font-size: small;
+    }
+
+    .menu{
+        font-size: small;
+    }
+
+    .menu li{
+        margin-left: 10px;
+    }
+    
+    header.container{
+       justify-content: space-between;
+    }
+
+    table, tbody, td, tr{
+        display: block;
+        width: 100%;
+
+        /* neste caso o proximo elemento sempre irá para baixo */
+    }
+}
+

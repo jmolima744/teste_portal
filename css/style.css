@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Roboto Mono', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+header{
+    background-color: dimgray;
+    color: white;
+    padding: 15px 0;
+}
+header .container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu li{
+    margin-left: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logomarca{
+    height: 15vh;
+    width: auto;
+}
+
+main{
+    flex: 1;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.imagem_destaque{
+    max-width: 50%;
+    height: auto;
+    margin-top: 20px;
+
+}
+
+p{
+    margin-top: 10px;
+
+}
+
+.botao{
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+}
