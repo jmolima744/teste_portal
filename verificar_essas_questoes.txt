@@ -1,0 +1,5 @@
+Importar as fontes
+Responsividade
+melhorar a tabela, além da questão da imagem do aumento, na questão do formulário alterar a cor ao clicar
+Tirar a questão das bordas no botão
+Além de verificar a questão de manter constante a tabela no caso de mais informações
