@@ -1,6 +1,6 @@
-Importar as fontes
+Importar as fontes-v
 Responsividade
-melhorar a tabela, além da questão da imagem do aumento, na questão do formulário alterar a cor ao clicar
+melhorar a tabela, além da questão da imagem do aumento, na questão do formulário alterar a cor ao clicar-ok
 Tirar a questão das bordas no botão-ok
 Além de verificar a questão de manter constante a tabela no caso de mais informações
 além da questão da verificação dos valores para incluir 
