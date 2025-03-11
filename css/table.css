@@ -20,6 +20,11 @@ td{
 table img{
    width: 120px;
    height: auto;
+   transition: transform 0.1s ease-in;
+}
+
+table img:hover{
+ transform: scale(1.2);
 }
 
 table input{

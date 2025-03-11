@@ -26,5 +26,16 @@
 
         /* neste caso o proximo elemento sempre irá para baixo */
     }
+
+    .form-container{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .form-img {
+        transform: scale(0.8);
+    }
 }
 

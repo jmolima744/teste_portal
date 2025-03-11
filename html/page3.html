@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/form.css">
+
+    <title>Meu Portal Página 3</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="../img/portal.png" alt="logomarca" class="logomarca">
+             <!-- <h1>Meu Portal</h1> -->
+             <nav>
+                 <ul class="menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="pag2.html">Pagina 2</a></li>
+                    <li> <a href="page3.html">Página 3</a></li>
+                 </ul>
+             </nav>
+        </div>
+    </header>
+
+
+<main>
+    <div class="form-container">
+        <img src="../img/portal.jpg" alt="Imagem para Formulário" class="form-img">
+
+        <!-- metodo get - seguro, sendo que todos os dados, durante o enviar vai aparecer os dados preenchidos, permitindo o redirecionamento, e o post precisa de um servidor para esses dados -->
+        
+         <form action="index.html" method="get">
+          <h2>Entre em Contato</h2>
+           
+          <!-- sendo que uma label e uma etiqueta -->
+           <!-- name vai dar a questão do nome da propriedade 
+           id processo de utilização mais para a conexão com o back-end -->
+          <label for="name">Nome</label>
+          <input type="text" id= "nome" name="nome" required> 
+
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="contato">Tipo de Contato</label>
+          <select id="contato" name="contato">
+            <option value="elogio">Elogio</option>
+            <option value="reclamacao">Reclamacao</option>
+            <option value="sugestao">Sugestao</option>
+          </select>
+
+        <label for="mensagem"> Mensagem </label>
+        <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+               
+
+        <button type="submit" class="botao">Enviar</button>
+        </form>
+        
+    </div>
+</main>
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Meu Portal |Todos direitos reservados</p>
+        </div>
+
+</footer>
+
+    
+</body>
+</html>
